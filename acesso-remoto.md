@@ -13,7 +13,7 @@ ssh utilizador@endereco_ip
 Exemplo ilustrativo:
 
 ```bash
-ssh ubuntu@192.168.1.100
+ssh aluno@192.0.2.10
 ```
 
 > O endereço acima é apenas um exemplo. Num teste real deve ser utilizado o endereço IP efetivamente atribuído à máquina de destino.

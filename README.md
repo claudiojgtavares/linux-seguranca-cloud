@@ -1,100 +1,45 @@
 # Linux, Segurança e Cloud
 
-Laboratório prático desenvolvido no contexto da formação **Skodji Digital**, com foco em administração básica de Linux, permissões, segurança e preparação para ambientes de cloud.
+Laboratório prático em evolução, desenvolvido no contexto da formação Skodji Digital. Documenta administração básica de Linux, permissões, acesso remoto e conceitos de VM/VPS/cloud, com evidências sem credenciais ou endereços reais.
 
-> **Estado do projeto:** em evolução. Este repositório será atualizado à medida que avanço no módulo e realizo novas atividades práticas.
+## Mapa do repositório
 
-## 🎯 Objetivos
-
-- Preparar um ambiente Linux com Ubuntu Server.
-- Praticar comandos essenciais de administração no terminal.
-- Compreender permissões de ficheiros e o princípio do menor privilégio.
-- Explorar conceitos de acesso remoto com SSH.
-- Relacionar máquinas virtuais, VPS e infraestrutura em cloud.
-- Documentar atividades e evidências de forma organizada no GitHub.
-
-## 🖥️ Ambiente utilizado
-
-- **Sistema anfitrião:** Windows 11
-- **Virtualização:** VMware
-- **Sistema convidado:** Ubuntu Server
-- **Tipo de ambiente:** máquina virtual local para laboratório
-
-## 🧰 Comandos e conceitos praticados
-
-Alguns dos comandos utilizados durante as atividades:
-
-```bash
-pwd
-ls
-mkdir
-nano
-uname -a
-hostname
+```text
+README.md
+├── permissoes.md       # menor privilégio, modos e exemplos
+├── acesso-remoto.md    # preparação SSH em ambiente controlado
+├── Evidencias/         # capturas das atividades
+└── Evidencias 2/       # exercícios de utilizadores e permissões
 ```
 
-Também foram trabalhados conceitos como:
+## Ambiente
 
-- estrutura de diretórios;
-- utilizadores e grupos;
-- permissões de leitura, escrita e execução;
+- Windows 11 como anfitrião;
+- VMware com Ubuntu Server convidado;
+- laboratório local isolado, sem afirmar uma infraestrutura cloud em produção.
+
+## Competências praticadas
+
+- navegação e administração pelo terminal;
+- utilizadores, grupos e permissões `640`, `644` e execução restrita;
 - princípio do menor privilégio;
-- preparação para SSH;
-- diferenças entre VM, VPS e infraestrutura em cloud.
+- preparação de SSH com chaves e configuração segura;
+- distinção entre máquina virtual, VPS e infraestrutura cloud;
+- documentação de operações e evidências.
 
-## 🔐 Permissões e segurança
+Os exemplos de rede usam endereços reservados para documentação. Nunca coloque chaves privadas, passwords, tokens ou IPs públicos no repositório.
 
-Foi realizada uma atividade específica sobre permissões de ficheiros, com exemplos como `644`, `640` e permissão de execução apenas para o proprietário.
+## English
 
-➡️ [Ver documentação sobre permissões](./permissoes.md)
+Work-in-progress Linux, security and cloud laboratory from the Skodji Digital training track. It covers basic Ubuntu Server administration, file permissions, SSH preparation and the difference between local VMs, VPS services and cloud infrastructure.
 
-## 🌐 Acesso remoto com SSH
+The repository contains sanitized evidence only. Examples use documentation-only network ranges; no credentials, private keys or production infrastructure are included. It records learning progress rather than professional operations experience.
 
-O laboratório também inclui preparação para acesso remoto via SSH. Como o ambiente utilizado é uma VM local isolada, o acesso remoto real entre máquinas não foi concluído nesta fase.
+## Próximos passos / Next steps
 
-➡️ [Ver documentação sobre acesso remoto](./acesso-remoto.md)
+- praticar firewall e serviços de rede num ambiente isolado;
+- testar SSH entre máquinas de laboratório;
+- aprofundar gestão de utilizadores e permissões;
+- relacionar os exercícios locais com uma VPS de teste.
 
-## 📸 Evidências
-
-As capturas de ecrã das atividades estão organizadas nas seguintes pastas:
-
-- [Evidências iniciais](./Evidencias)
-- [Evidências das atividades de permissões e utilizadores](./Evidencias%202)
-
-Também está disponível o relatório produzido no contexto do trabalho:
-
-- [Relatório do trabalho de grupo](./Relat%C3%B3rio%20do%20trabalho%20de%20grupo.pdf)
-
-## ☁️ VM, VPS e Cloud
-
-**VM local:** máquina virtual executada no próprio computador, útil para aprendizagem, testes e ambientes isolados.
-
-**VPS:** servidor virtual alojado num datacenter e normalmente acedido através da Internet, com recursos dedicados ou partilhados conforme o serviço contratado.
-
-**Infraestrutura em cloud:** conjunto de serviços computacionais disponibilizados por fornecedores de cloud, permitindo criar, gerir e escalar recursos conforme a necessidade.
-
-## 📚 Aprendizagens
-
-Este laboratório ajudou-me a consolidar:
-
-- utilização prática do terminal Linux;
-- organização de ficheiros e diretórios;
-- importância das permissões corretas;
-- relação entre controlo de acessos e segurança de sistemas;
-- documentação técnica de atividades;
-- utilização do GitHub como registo de evolução prática.
-
-## 🚧 Próximos passos
-
-- aprofundar comandos e administração de Ubuntu Server;
-- praticar utilizadores, grupos e permissões avançadas;
-- testar SSH entre máquinas num ambiente controlado;
-- explorar firewall e serviços de rede;
-- relacionar o laboratório local com ambientes VPS/cloud;
-- continuar a melhorar a documentação do repositório.
-
----
-
-**Autor:** Cláudio Tavares  
-**Área:** Engenharia de Sistemas e Informática / Tecnologias de Informação  
-**Contexto:** Skodji Digital — formação em andamento
+**Autor:** Cláudio Tavares · Engenharia de Sistemas e Informática / TI
